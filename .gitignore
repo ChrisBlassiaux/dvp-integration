@@ -1,0 +1,74 @@
+# Ignore les fichiers de configuration système
+/.vscode
+/.idea
+
+# Ignore les fichiers de configuration pour les environnements spécifiques
+/.env
+/.env.local
+.env.*
+
+# Ignore les fichiers de sortie du build
+/dist
+/build
+/out
+
+# Ignore les dépendances installées par les gestionnaires de paquets
+/node_modules
+/bower_components
+/vendor
+
+# Ignore les fichiers de sauvegarde et les fichiers temporaires
+*.bak
+*.swp
+*.tmp
+
+# Ignore les fichiers de logs
+/logs
+/log.txt
+
+# Ignore les fichiers utilisateur spécifiques
+.DS_Store
+Thumbs.db
+
+# Ignore les fichiers d'éditeurs spécifiques
+*.sublime-project
+*.sublime-workspace
+*.idea/
+
+# Ignore les fichiers de sauvegarde
+*.backup
+*~
+
+# Ignore les fichiers de configuration de l'utilisateur
+/.editorconfig
+.editorconfig
+
+# Ignore les fichiers de cache
+/.cache
+.cache/
+
+# Ignore les fichiers de résultats de tests
+/test-results
+/coverage
+
+# Ignore les fichiers générés par des outils de construction
+/yarn-error.log
+.pnp.*
+.pnp.js
+
+# Ignore les fichiers de sauvegarde des bases de données
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignore les fichiers générés par la documentation
+/doc
+/docs
+
+# Ignore les fichiers de configuration spécifiques au système d'exploitation
+.DS_Store
+Thumbs.db
+
+# Ignore les fichiers de configuration de package manager
+package-lock.json
+yarn.lock
